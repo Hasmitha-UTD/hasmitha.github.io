@@ -1,0 +1,64 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Profile photo styling */
+.profile-photo {
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 150px; /* Set the width of the image */
+    height: 150px;
+    border-radius: 50%; /* To make the image circular */
+    object-fit: cover; /* Ensures the image doesn't distort */
+    border: 3px solid white; /* Adds a border for styling */
+}
+
+/* Project list styling */
+#projects ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#projects li {
+    margin-bottom: 20px;
+}
+
+#projects h3 {
+    margin: 0 0 10px 0;
+    color: #4CAF50;
+}
+
+/* Link styling */
+#projects a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#projects a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
